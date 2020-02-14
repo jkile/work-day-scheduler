@@ -32,8 +32,10 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  border-left: 1px solid black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top: 1px solid black;
 }
 
 .hour {
@@ -72,4 +74,11 @@ textarea{
 .row{
   white-space: normal;
   margin-top: 6px;
+}
+.btn-primary{
+  height: 80px;
+  width: 90px;
+}
+.form-control{
+  height: 80px !important;
 }

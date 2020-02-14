@@ -25,13 +25,13 @@ setInterval(function () {
 function setColor() {
     for (let i = 1; i < 13; i++) {
         if (time < i + 8) {
-            $("#textArea" + i).css({ "background-color": "green", "opacity": "75%" });
+            $("#textArea" + i).attr("class", "future form-control border-top-0 border-bottom-0");
         }
         if (time === i + 8) {
-            $("#textArea" + i).css({ "background-color": "red", "opacity": "75%" });
+            $("#textArea" + i).attr("class", "present form-control border-top-0 border-bottom-0");
         }
         if (time > i + 8) {
-            $("#textArea" + i).css({ "background-color": "grey", "opacity": "75%" });
+            $("#textArea" + i).attr("class", "past form-control border-top-0 border-bottom-0");
         }
     }
 }

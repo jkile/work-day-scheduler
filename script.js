@@ -27,7 +27,7 @@ function setColor() {
         if (time < i + 8) {
             $("#textArea" + i).attr("class", "future form-control border-top-0 border-bottom-0");
         }
-        if (time === i + 8) {
+        if (time == i + 8) {
             $("#textArea" + i).attr("class", "present form-control border-top-0 border-bottom-0");
         }
         if (time > i + 8) {
